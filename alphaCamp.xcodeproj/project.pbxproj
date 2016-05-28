@@ -12,6 +12,8 @@
 		034B68051CF8185E00A4CD0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034B68031CF8185E00A4CD0A /* Main.storyboard */; };
 		034B68071CF8185E00A4CD0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034B68061CF8185E00A4CD0A /* Assets.xcassets */; };
 		034B680A1CF8185E00A4CD0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034B68081CF8185E00A4CD0A /* LaunchScreen.storyboard */; };
+		034B68121CF8229F00A4CD0A /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034B68111CF8229F00A4CD0A /* ImageViewController.swift */; };
+		034B68141CF8515100A4CD0A /* scrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034B68131CF8515100A4CD0A /* scrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		034B68061CF8185E00A4CD0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		034B68091CF8185E00A4CD0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		034B680B1CF8185E00A4CD0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034B68111CF8229F00A4CD0A /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		034B68131CF8515100A4CD0A /* scrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				034B68061CF8185E00A4CD0A /* Assets.xcassets */,
 				034B68081CF8185E00A4CD0A /* LaunchScreen.storyboard */,
 				034B680B1CF8185E00A4CD0A /* Info.plist */,
+				034B68111CF8229F00A4CD0A /* ImageViewController.swift */,
+				034B68131CF8515100A4CD0A /* scrollViewController.swift */,
 			);
 			path = alphaCamp;
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					034B67FB1CF8185E00A4CD0A = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = WS83J7MJTB;
 					};
 				};
 			};
@@ -136,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				034B68021CF8185E00A4CD0A /* ViewController.swift in Sources */,
+				034B68121CF8229F00A4CD0A /* ImageViewController.swift in Sources */,
 				034B68001CF8185E00A4CD0A /* AppDelegate.swift in Sources */,
+				034B68141CF8515100A4CD0A /* scrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +260,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = alphaCamp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.alphaCamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -262,10 +274,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = alphaCamp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.self.alphaCamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
