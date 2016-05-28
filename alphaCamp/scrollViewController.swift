@@ -11,11 +11,12 @@ import UIKit
 class scrollViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet weak var scrollView: UIScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.scrollView.delegate = self
-     scrollView.contentSize.height = 2000
+        scrollView.contentSize.height = 1500
+
         
 
     }
