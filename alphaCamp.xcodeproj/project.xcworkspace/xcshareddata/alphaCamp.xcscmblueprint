@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "75F8D338B2733347B2BD10803FFA52278269501A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "75F8D338B2733347B2BD10803FFA52278269501A" : 0,
+    "3AB76EA14DAF1C5BB8EB46EE29C122102D2BDB5D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A5369DA3-DAA9-4791-9A47-8DFE6FA7E754",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "75F8D338B2733347B2BD10803FFA52278269501A" : "alphaCamp\/",
+    "3AB76EA14DAF1C5BB8EB46EE29C122102D2BDB5D" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "alphaCamp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "alphaCamp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:alextsai0227\/BullsandCows.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3AB76EA14DAF1C5BB8EB46EE29C122102D2BDB5D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:alextsai0227\/AC-app-layout.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "75F8D338B2733347B2BD10803FFA52278269501A"
+    }
+  ]
+}

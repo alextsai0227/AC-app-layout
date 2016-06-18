@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030799B61D1450E8005C6BEB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030799B51D1450E7005C6BEB /* LoginViewController.swift */; };
+		030799B81D1540E9005C6BEB /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030799B71D1540E9005C6BEB /* Images.swift */; };
 		034B68001CF8185E00A4CD0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034B67FF1CF8185E00A4CD0A /* AppDelegate.swift */; };
 		034B68021CF8185E00A4CD0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034B68011CF8185E00A4CD0A /* ViewController.swift */; };
 		034B68051CF8185E00A4CD0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034B68031CF8185E00A4CD0A /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030799B51D1450E7005C6BEB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		030799B71D1540E9005C6BEB /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		034B67FC1CF8185E00A4CD0A /* alphaCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alphaCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		034B67FF1CF8185E00A4CD0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		034B68011CF8185E00A4CD0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				034B680B1CF8185E00A4CD0A /* Info.plist */,
 				034B68111CF8229F00A4CD0A /* ImageViewController.swift */,
 				034B68131CF8515100A4CD0A /* scrollViewController.swift */,
+				030799B51D1450E7005C6BEB /* LoginViewController.swift */,
+				030799B71D1540E9005C6BEB /* Images.swift */,
 			);
 			path = alphaCamp;
 			sourceTree = "<group>";
@@ -143,8 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				034B68021CF8185E00A4CD0A /* ViewController.swift in Sources */,
+				030799B81D1540E9005C6BEB /* Images.swift in Sources */,
 				034B68121CF8229F00A4CD0A /* ImageViewController.swift in Sources */,
 				034B68001CF8185E00A4CD0A /* AppDelegate.swift in Sources */,
+				030799B61D1450E8005C6BEB /* LoginViewController.swift in Sources */,
 				034B68141CF8515100A4CD0A /* scrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +311,7 @@
 				034B68101CF8185E00A4CD0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
